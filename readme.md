@@ -1,7 +1,9 @@
 **ENV Variables Required**
+
 PROJECT_ID --> GCP Project ID to use with Vertex AI
 
 **GCP Auth Required**
+
 The application utilizes Google Default Auth Credentials.
 When running in a GCP container such as CloudRun/AppEngine/GKE ensure the service account has permissions to utilize VertexAI.
 When running locally ensure your user john@gmail.com has permissions to utilize VertexAI and run `gcloud auth application-default login`
