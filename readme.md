@@ -8,8 +8,8 @@ When running locally ensure your user john@gmail.com has permissions to utilize 
 
 **API:**
 
-GET /ping --> healthcheck
-POST /generate --> Generate Image using Vertex AI utilizing parameters specified in a JSON. Check out ./test.json for examples.
+- `GET` - `/ping` --> healthcheck
+- `POST` - `/generate` --> Generate Image using Vertex AI utilizing parameters specified in a JSON. Check out ./test.json for examples.
 
 **Parameter Details**
 
