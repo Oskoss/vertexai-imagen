@@ -1,0 +1,13 @@
+{
+    "instances": [
+        {
+            "prompt": "pizza"
+        }
+    ],
+    "parameters": {
+        "sampleCount": 1,
+        "sampleImageStyle": "cyberpunk",
+        "negativePrompt": "pepperoni",
+        "seed": 1763
+    }
+}
