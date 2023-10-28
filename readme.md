@@ -14,34 +14,33 @@ When running locally ensure your user john@gmail.com has permissions to utilize 
 **Parameter Details**
 
 *prompt*
-The text prompt guides what images the model generates. 
-This field is required.
+- The text prompt guides what images the model generates. 
+- This field is required.
 
 *sampleImageStyle*
-One of the available predefined styles:
-- photograph
-- digital_art
-- landscape
-- sketch
-- watercolor
-- cyberpunk
-- pop_art
-
+- One of the available predefined styles:
+  - photograph
+  - digital_art
+  - landscape
+  - sketch
+  - watercolor
+  - cyberpunk
+  - pop_art
 
 *sampleCount*
-The number of generated images. 
-Accepted integer values: 1-8. 
-Default value: 4.
+- The number of generated images. 
+- Accepted integer values: 1-8. 
+- Default value: 4.
 
 *negativePrompt*
-A negative prompt to help generate the images.
-For example: 
-- "animals" (removes animals)
-- "blurry" (makes the image clearer)
-- "text" (removes text)
-- "cropped" (removes cropped images)
+- A negative prompt to help generate the images.
+- For example: 
+  - "animals" (removes animals)
+  - "blurry" (makes the image clearer)
+  - "text" (removes text)
+  - "cropped" (removes cropped images)
 
 *seed*
-Any non-negative integer you provide to make output images deterministic. 
-Providing the same seed number always results in the same output images. 
-Accepted integer values: 1 - 2147483647.
+- Any non-negative integer you provide to make output images deterministic. 
+- Providing the same seed number always results in the same output images. 
+- Accepted integer values: 1 - 2147483647.
