@@ -5,13 +5,15 @@ PROJECT_ID --> GCP Project ID to use with Vertex AI
 **GCP Auth Required**
 
 The application utilizes Google Default Auth Credentials.
+
 When running in a GCP container such as CloudRun/AppEngine/GKE ensure the service account has permissions to utilize VertexAI.
-When running locally ensure your user john@gmail.com has permissions to utilize VertexAI and run `gcloud auth application-default login`
+
+When running locally ensure your user has permissions to utilize VertexAI and run `gcloud auth application-default login`
 
 **API:**
 
-- `GET` - `/ping` --> healthcheck
-- `POST` - `/generate` --> Generate Image using Vertex AI utilizing parameters specified in a JSON. Check out ./test.json for examples.
+- `GET /ping` --> healthcheck
+- `POST /generate` --> Generate Image using Vertex AI utilizing parameters specified in a JSON. Check out example-request.json and example-response.json as needed.
 
 **Parameter Details**
 
